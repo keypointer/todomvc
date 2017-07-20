@@ -3,10 +3,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // Import the components.
-import { DummyComponent } from './components/dummy-component.jsx'
+import Sidebar from './app/Sidebar.jsx'
 
 // Define the root element.
-const root = document.querySelector('main')
+const root = document.querySelector('body')
 
 // Append the DummyComponent to the root element.
-ReactDOM.render(<DummyComponent />, root)
+ReactDOM.render(<Sidebar />, document.getElementById("container"))
